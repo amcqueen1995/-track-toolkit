@@ -1,0 +1,8 @@
+{
+  "name": "Track Toolkit",
+  "short_name": "Track",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#990000"
+}
