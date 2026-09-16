@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Track Toolkit</title>
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#990000">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Track Toolkit">
+</head>
+
+<body>
+
+  <h1>Track Toolkit</h1>
+  <p>East Greenwich Track & Field</p>
+
+  <h2>PWA Test</h2>
+  <p>If you can see this, the app is working.</p>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("service-worker.js");
+    }
+  </script>
+
+</body>
+</html>
